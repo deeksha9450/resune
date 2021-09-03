@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(204, 0, 136);
+}
+
+.main {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-radius: 10px;
+    height: 90vh;
+    width: 95vw;
+    background-color: white;
+}
+
+.main img {
+    height: 240px;
+    width: 240px;
+    border: 8px double rgba(80, 141, 255, 0.801);
+    border-radius: 150px;
+    position: relative;
+    top: 90px;
+    left: 250px;
+}
+
+.main h1 {
+    position: absolute;
+    left: 600px;
+    top: 70px;
+    font-size: 60px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#para1 {
+    position: absolute;
+    left: 600px;
+    top: 180px;
+    color: rgba(108, 112, 119, 0.801);
+}
+
+.contactus {
+    color: white;
+    background: rgb(63, 132, 223);
+    height: 30px;
+    width: 140px;
+}
+
+#contactme {
+    position: absolute;
+    left: 700px;
+    top: 280px;
+}
+
+#projects {
+    position: absolute;
+    left: 900px;
+    top: 280px;
+}
+
+button:hover {
+    background-color: rgb(114, 169, 241);
+}
+
+.box {
+    display: inline-block;
+    border: 2px rgba(0, 212, 255, 0.2) solid;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    position: relative;
+    bottom: 40px;
+    left: 140px;
+    color: rgba(108, 112, 119, 0.801);
+    text-align: center;
+    margin: 20PX;
+    background-color: rgb(211, 238, 238);
+}
+
+.box:hover {
+    position: relative;
+    bottom: 50px;
+}
+
+.box h2 {
+    color: black;
+}
+
+.skill {
+    position: absolute;
+    margin-top: 10px;
+    bottom: 5px;
+}
